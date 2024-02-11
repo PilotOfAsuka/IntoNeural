@@ -5,7 +5,8 @@ import pickle
 
 epoch = 60
 
-def training_medel():
+
+def training_model():
     try:
         # Загрузим данные для обучения
         with open("n_network/saves/messages.txt", 'r', encoding='utf-8') as file:
